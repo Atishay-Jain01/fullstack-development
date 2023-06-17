@@ -1,0 +1,46 @@
+/*UNIVERSAL SELECTOR*/
+body {
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+
+/*TYPE SELECTOR*/
+body {
+    color:rgb(110, 22, 192);
+    background-color: rgb(160, 176, 217);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/*CLASS SELECTOR*/
+.first {
+    color:black;
+}
+
+/*ID SELECTOR*/
+#second {
+    background-color: rgb(215, 173, 173);
+    width: fit-content;
+}
+
+/*MULTIPLE CLASS*/
+.large {
+    font-size: 22px;
+}
+
+/*ATTRIBUTE SELECTOR*/
+a[href="https://youtube.com/"]{
+    color: rgb(247, 50, 44);
+}
+
+/*INPUT*/
+input[type="text"] {
+    color:rgb(230, 79, 79);
+}
+
+/*COLOR CHANGE WHEN CURSOR ABOVE IT*/
+.first:hover
+{
+    color:aliceblue;
+}

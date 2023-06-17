@@ -1,0 +1,200 @@
+/* Define The global or root variables */
+:root {
+    --primaryColor: #213555;
+    --backgroundColor: #f1e2ce;
+    --primaryAccentColor: #4F709C;
+    --secondaryColor: #dab89f;
+    --whiteColor: white;
+    --blackColor: #222222;
+    --primaryFont: 'Open Sans', sans-serif;
+    --navbarHeight: 3rem; /* 1em=16px */
+    --cursivefont: 'Pacifico', cursive;
+}
+
+/* Main CSS */
+body {
+    background-color: var(--backgroundColor);
+    color: var(--primaryColor);
+    font-family: var(--primaryFont);
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+a {
+    text-decoration: none;
+    color: var(--primaryColor);
+}
+
+a:hover {
+    color: var(--primaryAccentColor);
+}
+
+.navigation {
+    background-color: var(--whiteColor);
+    height: var(--navbarHeight);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    padding-left: 20px;
+    width: 12rem;
+    align-items: center;
+}
+
+.logoImage {
+    padding: 8px;
+    height: 2rem;
+    /* float:left; */
+}
+
+.contactImage {
+    padding: 8px;
+    height: 2rem;
+}
+
+.menuItems {
+    flex-grow: 2;
+}
+
+.menuItem {
+    margin-left: 20px;
+}
+
+.banner {
+    display: flex;
+    height: 450px;
+    background: linear-gradient(45deg, var(--secondaryColor), var(--primaryColor));
+    filter: drop-shadow(0px 3px 4px grey);
+    /* x,y,radiu,colour */
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+
+.bannerimage {
+    height: 300px;
+    border-radius: 100%;
+}
+
+.greeting {
+    font-family: var(--cursivefont);
+    font-size: 2.25rem;
+}
+
+.bannerleft {
+    width: 50%;
+}
+
+.title {
+    font-size: 2.5rem;
+    color: white;
+}
+
+.titlespan {
+    display: inline-block;
+    background-color: var(--primaryColor);
+    padding: 0.5rem;
+    margin: 5px 0px;
+}
+
+.description {
+    margin: 30px 0px;
+    line-height: 2rem;
+}
+
+.showCVbutton {
+    background: linear-gradient(white, rgb(205, 205, 205), rgb(215, 215, 215));
+    padding: 10px 15px;
+    border-radius: 5px;
+    filter: drop-shadow(5px 5px 3px grey);
+}
+
+.showCVbutton:hover {
+    background: linear-gradient(white, rgb(215, 215, 215));
+}
+
+/* atishay@jecrc25 */
+
+/* Services Section*/
+
+.Services {
+    margin: 70px;
+}
+
+.serviceText {
+    text-align: center;
+    line-height: 2.5rem;
+    text-transform: uppercase;
+}
+
+.textSubHeading {
+    color: black;
+    font-size: 1.25rem;
+    letter-spacing: 0.3rem;
+}
+
+.textHeading {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.serviceCards {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.serviceCard {
+    background-color: rgb(247, 241, 230);
+    line-height: 1.5rem;
+    border: 2px solid var(--blackColor);
+    border-radius: 2px;
+    filter: drop-shadow(1px 2px 2px #aaaaaa);
+    padding: 30px;
+    margin: 15px;
+}
+
+.serviceCard:hover {
+    background-color: rgb(243, 240, 235);
+    filter: drop-shadow(3px 3px 3px rgb(61, 54, 54));
+}
+
+.serviceIconDiv {
+    background-color: var(--primaryColor);
+    padding: 10px;
+    margin: 10px;
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    align-items: center;
+    display: inline-block;
+}
+
+.serviceTitle {
+    font-size: 1.5rem;
+    color: black;
+    margin: 20px 0px;
+}
+
+.serviceIcon {
+    font-size: 50px;
+    color: white;
+    justify-content: space-around;
+}
+
+.serviceFeature {
+    font-size: 1rem;
+    margin: 10px 0px;
+}
+
+.serviceFeatureIcon {
+    font-size: 5rem;
+}
+
+.serviceFeatureText {
+    font-size: 0.5rem;
+}
