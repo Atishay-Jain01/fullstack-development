@@ -1,0 +1,36 @@
+/* ANIMATION */
+
+.box {
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    background-color: cadetblue;
+    text-align: center;
+    animation: colorchange 5s infinite;
+    margin: 100px 100px;
+    }
+
+@keyframes colorchange {
+    0% {
+        background-color: antiquewhite;
+        /*transform: translate(0,0px);*/      /* To Move Box (x-axis, y-axis) we use transform*/
+        transform: scale(0.3);
+    }
+    50% {
+        background-color: rgb(169, 73, 73);
+        /*transform: translate(0,50px);*/
+        transform: scale(1);
+    }
+    100% {
+        background-color: aliceblue;
+        /*transform: translate(0,300px);*/
+        transform: scale(3.0);
+    }
+}    
+
+.text {
+    padding: 34px 30px;
+}
+
+
+/* iframe tag */
